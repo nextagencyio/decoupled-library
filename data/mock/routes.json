@@ -1,0 +1,826 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Riverside Public Library",
+          "path": "/homepage",
+          "heroTitle": "Discover, Learn, Connect",
+          "heroSubtitle": "Your Free Gateway to Knowledge and Community",
+          "heroDescription": {
+            "processed": "<p>Riverside Public Library is more than books. We are a community hub offering free access to digital resources, technology, programs for all ages, and welcoming spaces to learn, create, and connect. With 12 branches across the county, we are always close to you.</p>",
+            "summary": "Riverside Public Library is more than books. We are a community hub offering free access to digital resources, technology, programs for all ages, and welcoming spaces to learn, create, and connect. Wi"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-cardholders",
+              "title": "",
+              "number": "185,000+",
+              "label": "Active Library Card Holders"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-checkouts",
+              "title": "",
+              "number": "2.4M",
+              "label": "Items Checked Out Annually"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-programs",
+              "title": "",
+              "number": "3,200+",
+              "label": "Programs Offered Yearly"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-branches",
+              "title": "",
+              "number": "12",
+              "label": "Branch Locations"
+            }
+          ],
+          "featuredItemsTitle": "Upcoming Programs",
+          "ctaTitle": "Get Your Free Library Card",
+          "ctaDescription": {
+            "processed": "<p>A library card opens the door to millions of books, e-books, audiobooks, streaming services, databases, and more, all completely free. Sign up online in minutes or visit any branch location.</p>",
+            "summary": "A library card opens the door to millions of books, e-books, audiobooks, streaming services, databases, and more, all completely free. Sign up online in minutes or visit any branch location."
+          },
+          "ctaPrimary": "Get a Library Card",
+          "ctaSecondary": "Explore Our Catalog"
+        }
+      }
+    }
+  },
+  "/branches/main-library": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeBranch",
+          "id": "branch-main",
+          "title": "Main Library",
+          "path": "/branches/main-library",
+          "body": {
+            "processed": "<p>The Main Library is the flagship location of the Riverside Public Library system, housed in a beautifully renovated 1925 Carnegie library building. With over 45,000 square feet of space, the Main Library offers the system's largest collection, a dedicated children's floor, a teen zone, a local history archive, and a state-of-the-art digital media lab.</p><h2>Special Collections</h2><ul><li>Riverside County Local History and Genealogy Archive</li><li>Small Business Resource Center with access to market research databases</li><li>World Languages Collection with materials in 15 languages</li><li>Seed Library offering free heirloom vegetable and flower seeds</li></ul><h2>Meeting & Study Spaces</h2><p>The Main Library offers six reservable meeting rooms (seating 8 to 75 people), 12 individual study rooms, and a 150-seat community auditorium available for nonprofit and civic events. Room reservations can be made online up to 30 days in advance.</p>",
+            "summary": "The Main Library is the flagship location of the Riverside Public Library system, housed in a beautifully renovated 1925 Carnegie library building. With over 45,000 square feet of space, the Main Libr"
+          },
+          "address": "100 Library Plaza, Riverside, IL 60546",
+          "phone": "(555) 800-1000",
+          "hoursWeekday": "Mon-Thu 9:00 AM - 9:00 PM, Fri 9:00 AM - 6:00 PM",
+          "hoursWeekend": "Sat 9:00 AM - 5:00 PM, Sun 1:00 PM - 5:00 PM",
+          "branchFeatures": [
+            "Children's Floor",
+            "Teen Zone",
+            "Digital Media Lab",
+            "Local History Archive",
+            "Small Business Center",
+            "Meeting Rooms",
+            "Study Rooms",
+            "Auditorium",
+            "Cafe"
+          ],
+          "meetingRooms": true,
+          "parking": "Free parking lot (120 spaces) and on-street metered parking. Bicycle racks at main entrance.",
+          "accessibility": "Fully ADA accessible. Elevator to all floors. Assistive listening devices available. Large-print and audiobook collections. Screen magnifiers at public computers.",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=800&q=80",
+            "alt": "Riverside Main Library historic Carnegie building",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/branches/eastside-branch": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeBranch",
+          "id": "branch-eastside",
+          "title": "Eastside Branch",
+          "path": "/branches/eastside-branch",
+          "body": {
+            "processed": "<p>The Eastside Branch is a modern, LEED-certified facility that opened in 2018 to serve the rapidly growing eastern communities of Riverside County. Known for its bright, open design and extensive children's area, the Eastside Branch has quickly become the neighborhood's gathering place.</p><h2>Branch Highlights</h2><ul><li>Dedicated Early Learning Space for babies and toddlers</li><li>STEAM Lab with 3D printers, laser cutter, and electronics kits</li><li>Outdoor reading garden with Wi-Fi access</li><li>Drive-through pickup window for holds and returns</li></ul><p>The Eastside Branch hosts over 400 programs annually, including weekly bilingual storytimes, teen coding clubs, and adult technology workshops. The branch serves as a polling place during elections and hosts community meetings throughout the year.</p>",
+            "summary": "The Eastside Branch is a modern, LEED-certified facility that opened in 2018 to serve the rapidly growing eastern communities of Riverside County. Known for its bright, open design and extensive child"
+          },
+          "address": "4500 Eastview Drive, Riverside, IL 60546",
+          "phone": "(555) 800-2000",
+          "hoursWeekday": "Mon-Thu 10:00 AM - 8:00 PM, Fri 10:00 AM - 6:00 PM",
+          "hoursWeekend": "Sat 10:00 AM - 5:00 PM, Sun Closed",
+          "branchFeatures": [
+            "Early Learning Space",
+            "STEAM Lab",
+            "Outdoor Reading Garden",
+            "Drive-Through Pickup",
+            "Bilingual Collections",
+            "Computer Lab"
+          ],
+          "meetingRooms": true,
+          "parking": "Free parking lot (80 spaces). ADA-accessible spaces near entrance.",
+          "accessibility": "Fully ADA accessible. Single-story building. Automatic doors. Adjustable-height computer stations.",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&q=80",
+            "alt": "Modern Eastside Branch Library with glass facade",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1568667256549-094345857637?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1568667256549-094345857637?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/branches/westpark-branch": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeBranch",
+          "id": "branch-westpark",
+          "title": "Westpark Branch",
+          "path": "/branches/westpark-branch",
+          "body": {
+            "processed": "<p>Nestled in the heart of Westpark's historic district, the Westpark Branch has been serving the community since 1962. Recently renovated to blend its mid-century charm with modern amenities, this branch is beloved for its cozy atmosphere, strong children's programming, and active book clubs.</p><h2>Branch Highlights</h2><ul><li>Popular Materials Express Collection for browsing bestsellers</li><li>Homework Help Center staffed by volunteer tutors (Mon-Thu, 3-6 PM)</li><li>Friends of the Library used bookshop</li><li>Community bulletin board and neighborhood resource wall</li></ul><p>The Westpark Branch is home to three of the system's most popular book clubs, including the Westpark Mystery Readers (30+ years running), the Contemporary Fiction Circle, and the Nonfiction Book Discussion Group.</p>",
+            "summary": "Nestled in the heart of Westpark's historic district, the Westpark Branch has been serving the community since 1962. Recently renovated to blend its mid-century charm with modern amenities, this branc"
+          },
+          "address": "2200 Westpark Avenue, Riverside, IL 60546",
+          "phone": "(555) 800-3000",
+          "hoursWeekday": "Mon-Wed 10:00 AM - 8:00 PM, Thu-Fri 10:00 AM - 6:00 PM",
+          "hoursWeekend": "Sat 10:00 AM - 4:00 PM, Sun Closed",
+          "branchFeatures": [
+            "Express Collection",
+            "Homework Help Center",
+            "Used Bookshop",
+            "Children's Area",
+            "Public Computers",
+            "Wi-Fi"
+          ],
+          "meetingRooms": false,
+          "parking": "Street parking available. Library is accessible by bus (Route 15 stops at the door).",
+          "accessibility": "ADA accessible. Ramp entrance on west side. Large-print collection available.",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&q=80",
+            "alt": "Westpark Branch Library cozy interior with bookshelves",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/programs/baby-storytime": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProgram",
+          "id": "program-baby-storytime",
+          "title": "Baby Storytime",
+          "path": "/programs/baby-storytime",
+          "body": {
+            "processed": "<p>Baby Storytime is a joyful 30-minute program designed for babies ages 0 to 24 months and their caregivers. Through rhymes, songs, fingerplays, and short picture books, babies develop early literacy skills while bonding with their caregiver and socializing with other families.</p><h2>What to Expect</h2><ul><li>Welcome songs and interactive rhymes</li><li>Two to three short picture books with repetitive text and bold illustrations</li><li>Action songs and movement activities for motor skill development</li><li>Open play time after the program for socialization</li><li>Take-home activity sheets with songs and reading tips</li></ul><h2>Why It Matters</h2><p>Research shows that babies who are exposed to language through reading, singing, and talking develop stronger vocabulary and literacy skills that benefit them throughout their education. Baby Storytime gives caregivers fun, practical ways to build these skills every day.</p>",
+            "summary": "Baby Storytime is a joyful 30-minute program designed for babies ages 0 to 24 months and their caregivers. Through rhymes, songs, fingerplays, and short picture books, babies develop early literacy sk"
+          },
+          "programType": [
+            {
+              "id": "storytime",
+              "name": "storytime"
+            }
+          ],
+          "ageGroup": [
+            {
+              "id": "baby-toddler-0-3",
+              "name": "baby-toddler-0-3"
+            }
+          ],
+          "schedule": "Tuesdays and Thursdays, 10:00 AM - 10:30 AM",
+          "branchLocation": "Main Library, Children's Floor & Eastside Branch",
+          "registrationRequired": false,
+          "registrationUrl": "",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80",
+            "alt": "Parent and baby enjoying storytime at the library",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/programs/teen-coding-club": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProgram",
+          "id": "program-teen-coding",
+          "title": "Teen Coding Club",
+          "path": "/programs/teen-coding-club",
+          "body": {
+            "processed": "<p>The Teen Coding Club is a free, weekly program where teens learn to code and build creative technology projects. Whether you have never written a line of code or you are already building apps, the Coding Club offers something for every skill level in a collaborative, supportive environment.</p><h2>Current Projects</h2><ul><li>Build your own video game using Python and Pygame</li><li>Create a personal website with HTML, CSS, and JavaScript</li><li>Design an app prototype and pitch it to the group</li><li>Contribute to an open-source project on GitHub</li><li>Explore machine learning with beginner-friendly tools</li></ul><h2>No Experience Required</h2><p>We provide the laptops, the software, and the instruction. All you need to bring is your curiosity. The club is led by library staff with support from volunteer mentors from local tech companies.</p>",
+            "summary": "The Teen Coding Club is a free, weekly program where teens learn to code and build creative technology projects. Whether you have never written a line of code or you are already building apps, the Cod"
+          },
+          "programType": [
+            {
+              "id": "technology-class",
+              "name": "technology-class"
+            }
+          ],
+          "ageGroup": [
+            {
+              "id": "teens-13-17",
+              "name": "teens-13-17"
+            }
+          ],
+          "schedule": "Wednesdays, 4:00 PM - 5:30 PM (during school year)",
+          "branchLocation": "Eastside Branch, STEAM Lab",
+          "registrationRequired": false,
+          "registrationUrl": "",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
+            "alt": "Teens working on coding projects in the library",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/programs/tech-help-seniors": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProgram",
+          "id": "program-tech-seniors",
+          "title": "Tech Help for Seniors",
+          "path": "/programs/tech-help-seniors",
+          "body": {
+            "processed": "<p>Our Tech Help for Seniors program provides patient, one-on-one assistance to help older adults navigate the digital world with confidence. Whether you need help setting up email, using a smartphone, video calling your grandchildren, or staying safe online, our trained volunteers are here to help.</p><h2>Topics We Cover</h2><ul><li>Smartphone and tablet basics (iOS and Android)</li><li>Email setup and management</li><li>Video calling with Zoom, FaceTime, and WhatsApp</li><li>Using the library's digital resources (e-books, audiobooks, streaming)</li><li>Online safety: recognizing scams, creating strong passwords</li><li>Social media basics (Facebook, Instagram)</li></ul><h2>How It Works</h2><p>Drop in during any session for help with a specific question, or sign up for the four-week Digital Literacy Basics course for a structured introduction to technology. Bring your own device or use one of ours. All sessions are free and no prior experience is required.</p>",
+            "summary": "Our Tech Help for Seniors program provides patient, one-on-one assistance to help older adults navigate the digital world with confidence. Whether you need help setting up email, using a smartphone, v"
+          },
+          "programType": [
+            {
+              "id": "technology-class",
+              "name": "technology-class"
+            }
+          ],
+          "ageGroup": [
+            {
+              "id": "seniors-55",
+              "name": "seniors-55"
+            }
+          ],
+          "schedule": "Mondays and Fridays, 10:00 AM - 12:00 PM",
+          "branchLocation": "Main Library, Computer Lab & Westpark Branch",
+          "registrationRequired": false,
+          "registrationUrl": "",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80",
+            "alt": "Senior learning to use a tablet with library volunteer",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/author-visit-elena-torres": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-author-visit",
+          "title": "Author Visit: Elena Torres Discusses 'The River Between Us'",
+          "path": "/events/author-visit-elena-torres",
+          "body": {
+            "processed": "<p>Bestselling author Elena Torres visits Riverside Public Library to discuss her acclaimed new novel, 'The River Between Us,' a multigenerational story of immigration, identity, and the ties that bind families across borders. The novel has been named a New York Times Notable Book and was longlisted for the National Book Award.</p><h2>Event Details</h2><ul><li>Author reading from selected passages</li><li>Moderated conversation with local journalist Ana Rivera</li><li>Audience Q&A session</li><li>Book signing following the event (books available for purchase)</li></ul><p>Elena Torres is the author of four novels and a short story collection. Her work explores the Mexican-American experience with warmth, humor, and lyrical prose. She is a recipient of the PEN/Faulkner Award and teaches creative writing at Northwestern University.</p><p>This event is presented by the Riverside Public Library Foundation and the Friends of the Library.</p>",
+            "summary": "Bestselling author Elena Torres visits Riverside Public Library to discuss her acclaimed new novel, 'The River Between Us,' a multigenerational story of immigration, identity, and the ties that bind f"
+          },
+          "eventDate": {
+            "timestamp": 1775865600
+          },
+          "endDate": {
+            "timestamp": 1775872800
+          },
+          "location": "Main Library, Community Auditorium",
+          "eventCategory": [
+            {
+              "id": "author-visit",
+              "name": "author-visit"
+            }
+          ],
+          "ageGroup": [
+            {
+              "id": "adults-18",
+              "name": "adults-18"
+            }
+          ],
+          "registrationRequired": true,
+          "registrationUrl": "https://riversidepubliclibrary.org/author-torres",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&q=80",
+            "alt": "Author Elena Torres with her latest novel",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/summer-reading-kickoff": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-summer-reading",
+          "title": "Summer Reading Program Kickoff Party",
+          "path": "/events/summer-reading-kickoff",
+          "body": {
+            "processed": "<p>School is out and summer reading is in! Join us for the biggest party of the summer as we launch the 2026 Summer Reading Program at Riverside Public Library. This year's theme, 'Adventure Awaits,' invites readers of all ages to explore new worlds through books, audiobooks, and digital media.</p><h2>Kickoff Party Activities</h2><ul><li>Live performance by children's musician Captain Book</li><li>Face painting, balloon art, and craft stations</li><li>Sign up for Summer Reading and receive your free reading log and tote bag</li><li>Meet therapy dogs from Paws for Reading</li><li>Free popsicles and lemonade</li><li>Tour the Bookmobile and STEAM Lab</li></ul><h2>How Summer Reading Works</h2><p>Read books, earn points, and win prizes all summer long. Children, teens, and adults each have their own reading tracks. Log your reading online or on paper. Every participant who reaches the reading goal receives a free book and a voucher for local attractions.</p>",
+            "summary": "School is out and summer reading is in! Join us for the biggest party of the summer as we launch the 2026 Summer Reading Program at Riverside Public Library. This year's theme, 'Adventure Awaits,' inv"
+          },
+          "eventDate": {
+            "timestamp": 1780844400
+          },
+          "endDate": {
+            "timestamp": 1780858800
+          },
+          "location": "Main Library Grounds (rain location: Community Auditorium)",
+          "eventCategory": [
+            {
+              "id": "performance",
+              "name": "performance"
+            },
+            {
+              "id": "workshop",
+              "name": "workshop"
+            }
+          ],
+          "ageGroup": [
+            {
+              "id": "all-ages",
+              "name": "all-ages"
+            }
+          ],
+          "registrationRequired": false,
+          "registrationUrl": "",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=800&q=80",
+            "alt": "Children excited about summer reading program",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/spring-book-sale": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-book-sale",
+          "title": "Friends of the Library Spring Book Sale",
+          "path": "/events/spring-book-sale",
+          "body": {
+            "processed": "<p>The Friends of the Riverside Public Library present their semi-annual Book Sale, one of the largest used book sales in the county. Browse thousands of gently used books, DVDs, CDs, vinyl records, and puzzles, all at incredible prices. Proceeds support library programs, technology upgrades, and special collections.</p><h2>Sale Schedule</h2><ul><li><strong>Friday (Members Preview):</strong> 5:00 PM - 8:00 PM (Friends membership available at the door, $10)</li><li><strong>Saturday:</strong> 9:00 AM - 4:00 PM</li><li><strong>Sunday (Bag Sale):</strong> 12:00 PM - 3:00 PM (fill a bag for $5)</li></ul><h2>Pricing</h2><ul><li>Hardcover books: $2</li><li>Paperback books: $1</li><li>Children's books: $0.50</li><li>DVDs and CDs: $1 each</li><li>Vinyl records: $1 each</li></ul><p>Donations of gently used books are accepted at all branch locations through April 15. Volunteers are needed for sorting and sale days. Contact friends@riversidelibrary.org to sign up.</p>",
+            "summary": "The Friends of the Riverside Public Library present their semi-annual Book Sale, one of the largest used book sales in the county. Browse thousands of gently used books, DVDs, CDs, vinyl records, and "
+          },
+          "eventDate": {
+            "timestamp": 1777068000
+          },
+          "endDate": {
+            "timestamp": 1777233600
+          },
+          "location": "Main Library, Lower Level",
+          "eventCategory": [
+            {
+              "id": "book-sale",
+              "name": "book-sale"
+            }
+          ],
+          "ageGroup": [
+            {
+              "id": "all-ages",
+              "name": "all-ages"
+            }
+          ],
+          "registrationRequired": false,
+          "registrationUrl": "",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1524578271613-d550eacf6090?w=800&q=80",
+            "alt": "Book sale tables filled with used books",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1524578271613-d550eacf6090?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1524578271613-d550eacf6090?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1524578271613-d550eacf6090?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/expanded-sunday-hours": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-new-hours",
+          "title": "Expanded Sunday Hours at Three Branch Locations",
+          "path": "/news/expanded-sunday-hours",
+          "body": {
+            "processed": "<p>Beginning April 1, Riverside Public Library is expanding Sunday hours at three branch locations to better serve our community. The Eastside, Northgate, and Southridge branches will now be open on Sundays from 1:00 PM to 5:00 PM, in addition to the Main Library which already offers Sunday hours.</p><h2>Why Sunday Hours?</h2><p>In our recent community survey, expanded weekend hours were the most requested service improvement, with 68% of respondents indicating they would use the library on Sundays if it were open. This expansion is made possible by a $150,000 state grant for library access enhancement.</p><h2>Sunday Services Available</h2><ul><li>Full circulation services (checkout, returns, holds pickup)</li><li>Public computer and Wi-Fi access</li><li>Reference assistance</li><li>Children's area and teen zone open</li><li>Meeting room reservations available</li></ul><p>We will evaluate the success of expanded Sunday hours over a six-month pilot period and determine whether to make the change permanent and extend it to additional branches.</p>",
+            "summary": "Beginning April 1, Riverside Public Library is expanding Sunday hours at three branch locations to better serve our community. The Eastside, Northgate, and Southridge branches will now be open on Sund"
+          },
+          "newsCategory": [
+            {
+              "id": "hours-closures",
+              "name": "hours-closures"
+            },
+            {
+              "id": "library-news",
+              "name": "library-news"
+            }
+          ],
+          "publishDate": {
+            "timestamp": 1772377200
+          },
+          "author": "Library Administration",
+          "summary": {
+            "processed": "<p>Starting April 1, three additional Riverside Public Library branches will offer Sunday hours from 1:00 PM to 5:00 PM, funded by a $150,000 state grant for library access.</p>",
+            "summary": "Starting April 1, three additional Riverside Public Library branches will offer Sunday hours from 1:00 PM to 5:00 PM, funded by a $150,000 state grant for library access."
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=800&q=80",
+            "alt": "Library entrance welcoming visitors",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/new-digital-collections": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-digital-collection",
+          "title": "Library Launches Three New Digital Collections",
+          "path": "/news/new-digital-collections",
+          "body": {
+            "processed": "<p>Riverside Public Library is excited to announce the addition of three major digital collections available free to all library card holders, significantly expanding our digital offerings for lifelong learners.</p><h2>New Digital Resources</h2><ul><li><strong>Kanopy Streaming:</strong> Access over 30,000 films including award-winning documentaries, independent cinema, classic films, and educational content. Stream up to 10 titles per month on any device.</li><li><strong>LinkedIn Learning:</strong> Over 16,000 courses in business, technology, and creative skills. Earn certificates and develop professional skills at your own pace.</li><li><strong>PressReader:</strong> Read over 7,000 newspapers and magazines from 120 countries in 60 languages, including The New York Times, The Washington Post, and hundreds of international publications.</li></ul><h2>How to Access</h2><p>All three platforms are accessible through our website or mobile apps using your Riverside Public Library card number and PIN. If you do not have a library card, you can sign up for a free digital card online at riversidepubliclibrary.org/ecard.</p>",
+            "summary": "Riverside Public Library is excited to announce the addition of three major digital collections available free to all library card holders, significantly expanding our digital offerings for lifelong l"
+          },
+          "newsCategory": [
+            {
+              "id": "new-collections",
+              "name": "new-collections"
+            },
+            {
+              "id": "library-news",
+              "name": "library-news"
+            }
+          ],
+          "publishDate": {
+            "timestamp": 1771167600
+          },
+          "author": "Digital Services Department",
+          "summary": {
+            "processed": "<p>Three new digital collections are now available free to library card holders: Kanopy film streaming, LinkedIn Learning professional courses, and PressReader global newspapers and magazines.</p>",
+            "summary": "Three new digital collections are now available free to library card holders: Kanopy film streaming, LinkedIn Learning professional courses, and PressReader global newspapers and magazines."
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?w=800&q=80",
+            "alt": "Person using digital library resources on a tablet",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/summer-reading-record": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-summer-reading-stats",
+          "title": "Summer Reading Program Sets New Participation Record",
+          "path": "/news/summer-reading-record",
+          "body": {
+            "processed": "<p>The 2025 Summer Reading Program, themed 'Read Beyond the Beaten Path,' shattered participation records with 18,500 readers logging over 1.2 million minutes of reading across the summer. This represents a 22% increase over the previous year and the highest participation in the program's 40-year history.</p><h2>Highlights</h2><ul><li>18,500 total participants (8,200 children, 4,800 teens, 5,500 adults)</li><li>1,200,000+ minutes of reading logged</li><li>520 programs offered across all branches</li><li>12,000 program attendees throughout the summer</li><li>$15,000 in prizes awarded, including books, gift cards, and experience vouchers</li></ul><h2>Community Impact</h2><p>Summer reading programs are proven to prevent the 'summer slide,' the loss of academic skills that many students experience during the break from school. By keeping children and teens engaged with books and learning activities, the library helps students return to school ready to succeed.</p><p>Planning for Summer 2026, themed 'Adventure Awaits,' is already underway. Watch for registration opening in May.</p>",
+            "summary": "The 2025 Summer Reading Program, themed 'Read Beyond the Beaten Path,' shattered participation records with 18,500 readers logging over 1.2 million minutes of reading across the summer. This represent"
+          },
+          "newsCategory": [
+            {
+              "id": "community",
+              "name": "community"
+            },
+            {
+              "id": "library-news",
+              "name": "library-news"
+            }
+          ],
+          "publishDate": {
+            "timestamp": 1769958000
+          },
+          "author": "Youth Services Department",
+          "summary": {
+            "processed": "<p>The 2025 Summer Reading Program set a new record with 18,500 participants logging over 1.2 million minutes of reading, a 22% increase over the previous year.</p>",
+            "summary": "The 2025 Summer Reading Program set a new record with 18,500 participants logging over 1.2 million minutes of reading, a 22% increase over the previous year."
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=800&q=80",
+            "alt": "Children reading books during summer reading program",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About Riverside Public Library",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Riverside Public Library has served the residents of Riverside County since 1908, when Andrew Carnegie donated funds to build the original Main Library. Over more than a century, the library system has grown from a single building to 12 branches serving a diverse community of over 300,000 residents.</p><h2>Our Mission</h2><p>To inspire lifelong learning, empower informed citizens, and strengthen community connections by providing free and equitable access to information, technology, and cultural programming for all.</p><h2>Our Services</h2><ul><li><strong>Collections:</strong> Over 1.5 million physical items including books, DVDs, audiobooks, magazines, and music. Plus extensive digital collections available 24/7.</li><li><strong>Technology:</strong> Free public computers, Wi-Fi, printing, scanning, 3D printing, and digital media production tools at all branches.</li><li><strong>Programs:</strong> Over 3,200 free programs annually for babies, children, teens, adults, and seniors, from storytime to coding clubs to author visits.</li><li><strong>Community Spaces:</strong> Meeting rooms, study rooms, and event spaces available for community use at no charge.</li><li><strong>Outreach:</strong> Bookmobile service, homebound delivery, school partnerships, and pop-up libraries at community events.</li></ul><h2>Governance</h2><p>Riverside Public Library is governed by a seven-member Board of Trustees appointed by the County Board. The library is funded through a dedicated property tax levy, state grants, and the generous support of the Riverside Public Library Foundation and Friends of the Library.</p>",
+            "summary": "Riverside Public Library has served the residents of Riverside County since 1908, when Andrew Carnegie donated funds to build the original Main Library. Over more than a century, the library system ha"
+          }
+        }
+      }
+    }
+  },
+  "/library-card": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-library-card",
+          "title": "Get a Library Card",
+          "path": "/library-card",
+          "body": {
+            "processed": "<h2>Your Key to Everything the Library Offers</h2><p>A Riverside Public Library card is your free ticket to millions of books, e-books, audiobooks, movies, music, databases, technology, programs, and more. Cards are available to all residents of Riverside County at no cost.</p><h2>How to Get a Card</h2><ul><li><strong>In Person:</strong> Visit any branch with a valid photo ID and proof of Riverside County address. Cards are issued immediately.</li><li><strong>Online (e-Card):</strong> Apply at riversidepubliclibrary.org/ecard for instant access to digital collections. Visit a branch within 30 days to convert to a full-service card.</li></ul><h2>Card Types</h2><ul><li><strong>Adult Card:</strong> For residents 18 and older. Full borrowing privileges.</li><li><strong>Youth Card:</strong> For residents under 18. Requires parent/guardian signature. Same borrowing privileges as adult cards.</li><li><strong>Non-Resident Card:</strong> Available for $75/year to individuals who live outside Riverside County.</li><li><strong>Educator Card:</strong> Special card for teachers at Riverside County schools with extended borrowing limits and classroom collections.</li></ul><h2>Borrowing Limits</h2><p>Library cards allow you to check out up to 50 items at a time with a three-week loan period for most materials. Renewals are available online, by phone, or in person. There are no overdue fines at Riverside Public Library; we went fine-free in 2023 to remove barriers to access.</p>",
+            "summary": "Your Key to Everything the Library OffersA Riverside Public Library card is your free ticket to millions of books, e-books, audiobooks, movies, music, databases, technology, programs, and more. Cards "
+          }
+        }
+      }
+    }
+  }
+}

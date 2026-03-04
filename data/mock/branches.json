@@ -1,0 +1,165 @@
+{
+  "data": {
+    "nodeBranches": {
+      "__typename": "NodeBranchConnection",
+      "nodes": [
+        {
+          "__typename": "NodeBranch",
+          "id": "branch-main",
+          "title": "Main Library",
+          "path": "/branches/main-library",
+          "body": {
+            "processed": "<p>The Main Library is the flagship location of the Riverside Public Library system, housed in a beautifully renovated 1925 Carnegie library building. With over 45,000 square feet of space, the Main Library offers the system's largest collection, a dedicated children's floor, a teen zone, a local history archive, and a state-of-the-art digital media lab.</p><h2>Special Collections</h2><ul><li>Riverside County Local History and Genealogy Archive</li><li>Small Business Resource Center with access to market research databases</li><li>World Languages Collection with materials in 15 languages</li><li>Seed Library offering free heirloom vegetable and flower seeds</li></ul><h2>Meeting & Study Spaces</h2><p>The Main Library offers six reservable meeting rooms (seating 8 to 75 people), 12 individual study rooms, and a 150-seat community auditorium available for nonprofit and civic events. Room reservations can be made online up to 30 days in advance.</p>",
+            "summary": "The Main Library is the flagship location of the Riverside Public Library system, housed in a beautifully renovated 1925 Carnegie library building. With over 45,000 square feet of space, the Main Libr"
+          },
+          "address": "100 Library Plaza, Riverside, IL 60546",
+          "phone": "(555) 800-1000",
+          "hoursWeekday": "Mon-Thu 9:00 AM - 9:00 PM, Fri 9:00 AM - 6:00 PM",
+          "hoursWeekend": "Sat 9:00 AM - 5:00 PM, Sun 1:00 PM - 5:00 PM",
+          "branchFeatures": [
+            "Children's Floor",
+            "Teen Zone",
+            "Digital Media Lab",
+            "Local History Archive",
+            "Small Business Center",
+            "Meeting Rooms",
+            "Study Rooms",
+            "Auditorium",
+            "Cafe"
+          ],
+          "meetingRooms": true,
+          "parking": "Free parking lot (120 spaces) and on-street metered parking. Bicycle racks at main entrance.",
+          "accessibility": "Fully ADA accessible. Elevator to all floors. Assistive listening devices available. Large-print and audiobook collections. Screen magnifiers at public computers.",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=800&q=80",
+            "alt": "Riverside Main Library historic Carnegie building",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeBranch",
+          "id": "branch-eastside",
+          "title": "Eastside Branch",
+          "path": "/branches/eastside-branch",
+          "body": {
+            "processed": "<p>The Eastside Branch is a modern, LEED-certified facility that opened in 2018 to serve the rapidly growing eastern communities of Riverside County. Known for its bright, open design and extensive children's area, the Eastside Branch has quickly become the neighborhood's gathering place.</p><h2>Branch Highlights</h2><ul><li>Dedicated Early Learning Space for babies and toddlers</li><li>STEAM Lab with 3D printers, laser cutter, and electronics kits</li><li>Outdoor reading garden with Wi-Fi access</li><li>Drive-through pickup window for holds and returns</li></ul><p>The Eastside Branch hosts over 400 programs annually, including weekly bilingual storytimes, teen coding clubs, and adult technology workshops. The branch serves as a polling place during elections and hosts community meetings throughout the year.</p>",
+            "summary": "The Eastside Branch is a modern, LEED-certified facility that opened in 2018 to serve the rapidly growing eastern communities of Riverside County. Known for its bright, open design and extensive child"
+          },
+          "address": "4500 Eastview Drive, Riverside, IL 60546",
+          "phone": "(555) 800-2000",
+          "hoursWeekday": "Mon-Thu 10:00 AM - 8:00 PM, Fri 10:00 AM - 6:00 PM",
+          "hoursWeekend": "Sat 10:00 AM - 5:00 PM, Sun Closed",
+          "branchFeatures": [
+            "Early Learning Space",
+            "STEAM Lab",
+            "Outdoor Reading Garden",
+            "Drive-Through Pickup",
+            "Bilingual Collections",
+            "Computer Lab"
+          ],
+          "meetingRooms": true,
+          "parking": "Free parking lot (80 spaces). ADA-accessible spaces near entrance.",
+          "accessibility": "Fully ADA accessible. Single-story building. Automatic doors. Adjustable-height computer stations.",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&q=80",
+            "alt": "Modern Eastside Branch Library with glass facade",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1568667256549-094345857637?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1568667256549-094345857637?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeBranch",
+          "id": "branch-westpark",
+          "title": "Westpark Branch",
+          "path": "/branches/westpark-branch",
+          "body": {
+            "processed": "<p>Nestled in the heart of Westpark's historic district, the Westpark Branch has been serving the community since 1962. Recently renovated to blend its mid-century charm with modern amenities, this branch is beloved for its cozy atmosphere, strong children's programming, and active book clubs.</p><h2>Branch Highlights</h2><ul><li>Popular Materials Express Collection for browsing bestsellers</li><li>Homework Help Center staffed by volunteer tutors (Mon-Thu, 3-6 PM)</li><li>Friends of the Library used bookshop</li><li>Community bulletin board and neighborhood resource wall</li></ul><p>The Westpark Branch is home to three of the system's most popular book clubs, including the Westpark Mystery Readers (30+ years running), the Contemporary Fiction Circle, and the Nonfiction Book Discussion Group.</p>",
+            "summary": "Nestled in the heart of Westpark's historic district, the Westpark Branch has been serving the community since 1962. Recently renovated to blend its mid-century charm with modern amenities, this branc"
+          },
+          "address": "2200 Westpark Avenue, Riverside, IL 60546",
+          "phone": "(555) 800-3000",
+          "hoursWeekday": "Mon-Wed 10:00 AM - 8:00 PM, Thu-Fri 10:00 AM - 6:00 PM",
+          "hoursWeekend": "Sat 10:00 AM - 4:00 PM, Sun Closed",
+          "branchFeatures": [
+            "Express Collection",
+            "Homework Help Center",
+            "Used Bookshop",
+            "Children's Area",
+            "Public Computers",
+            "Wi-Fi"
+          ],
+          "meetingRooms": false,
+          "parking": "Street parking available. Library is accessible by bus (Route 15 stops at the door).",
+          "accessibility": "ADA accessible. Ramp entrance on west side. Large-print collection available.",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&q=80",
+            "alt": "Westpark Branch Library cozy interior with bookshelves",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

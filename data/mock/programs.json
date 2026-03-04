@@ -1,0 +1,165 @@
+{
+  "data": {
+    "nodePrograms": {
+      "__typename": "NodeProgramConnection",
+      "nodes": [
+        {
+          "__typename": "NodeProgram",
+          "id": "program-baby-storytime",
+          "title": "Baby Storytime",
+          "path": "/programs/baby-storytime",
+          "body": {
+            "processed": "<p>Baby Storytime is a joyful 30-minute program designed for babies ages 0 to 24 months and their caregivers. Through rhymes, songs, fingerplays, and short picture books, babies develop early literacy skills while bonding with their caregiver and socializing with other families.</p><h2>What to Expect</h2><ul><li>Welcome songs and interactive rhymes</li><li>Two to three short picture books with repetitive text and bold illustrations</li><li>Action songs and movement activities for motor skill development</li><li>Open play time after the program for socialization</li><li>Take-home activity sheets with songs and reading tips</li></ul><h2>Why It Matters</h2><p>Research shows that babies who are exposed to language through reading, singing, and talking develop stronger vocabulary and literacy skills that benefit them throughout their education. Baby Storytime gives caregivers fun, practical ways to build these skills every day.</p>",
+            "summary": "Baby Storytime is a joyful 30-minute program designed for babies ages 0 to 24 months and their caregivers. Through rhymes, songs, fingerplays, and short picture books, babies develop early literacy sk"
+          },
+          "programType": [
+            {
+              "id": "storytime",
+              "name": "storytime"
+            }
+          ],
+          "ageGroup": [
+            {
+              "id": "baby-toddler-0-3",
+              "name": "baby-toddler-0-3"
+            }
+          ],
+          "schedule": "Tuesdays and Thursdays, 10:00 AM - 10:30 AM",
+          "branchLocation": "Main Library, Children's Floor & Eastside Branch",
+          "registrationRequired": false,
+          "registrationUrl": "",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80",
+            "alt": "Parent and baby enjoying storytime at the library",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeProgram",
+          "id": "program-teen-coding",
+          "title": "Teen Coding Club",
+          "path": "/programs/teen-coding-club",
+          "body": {
+            "processed": "<p>The Teen Coding Club is a free, weekly program where teens learn to code and build creative technology projects. Whether you have never written a line of code or you are already building apps, the Coding Club offers something for every skill level in a collaborative, supportive environment.</p><h2>Current Projects</h2><ul><li>Build your own video game using Python and Pygame</li><li>Create a personal website with HTML, CSS, and JavaScript</li><li>Design an app prototype and pitch it to the group</li><li>Contribute to an open-source project on GitHub</li><li>Explore machine learning with beginner-friendly tools</li></ul><h2>No Experience Required</h2><p>We provide the laptops, the software, and the instruction. All you need to bring is your curiosity. The club is led by library staff with support from volunteer mentors from local tech companies.</p>",
+            "summary": "The Teen Coding Club is a free, weekly program where teens learn to code and build creative technology projects. Whether you have never written a line of code or you are already building apps, the Cod"
+          },
+          "programType": [
+            {
+              "id": "technology-class",
+              "name": "technology-class"
+            }
+          ],
+          "ageGroup": [
+            {
+              "id": "teens-13-17",
+              "name": "teens-13-17"
+            }
+          ],
+          "schedule": "Wednesdays, 4:00 PM - 5:30 PM (during school year)",
+          "branchLocation": "Eastside Branch, STEAM Lab",
+          "registrationRequired": false,
+          "registrationUrl": "",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
+            "alt": "Teens working on coding projects in the library",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeProgram",
+          "id": "program-tech-seniors",
+          "title": "Tech Help for Seniors",
+          "path": "/programs/tech-help-seniors",
+          "body": {
+            "processed": "<p>Our Tech Help for Seniors program provides patient, one-on-one assistance to help older adults navigate the digital world with confidence. Whether you need help setting up email, using a smartphone, video calling your grandchildren, or staying safe online, our trained volunteers are here to help.</p><h2>Topics We Cover</h2><ul><li>Smartphone and tablet basics (iOS and Android)</li><li>Email setup and management</li><li>Video calling with Zoom, FaceTime, and WhatsApp</li><li>Using the library's digital resources (e-books, audiobooks, streaming)</li><li>Online safety: recognizing scams, creating strong passwords</li><li>Social media basics (Facebook, Instagram)</li></ul><h2>How It Works</h2><p>Drop in during any session for help with a specific question, or sign up for the four-week Digital Literacy Basics course for a structured introduction to technology. Bring your own device or use one of ours. All sessions are free and no prior experience is required.</p>",
+            "summary": "Our Tech Help for Seniors program provides patient, one-on-one assistance to help older adults navigate the digital world with confidence. Whether you need help setting up email, using a smartphone, v"
+          },
+          "programType": [
+            {
+              "id": "technology-class",
+              "name": "technology-class"
+            }
+          ],
+          "ageGroup": [
+            {
+              "id": "seniors-55",
+              "name": "seniors-55"
+            }
+          ],
+          "schedule": "Mondays and Fridays, 10:00 AM - 12:00 PM",
+          "branchLocation": "Main Library, Computer Lab & Westpark Branch",
+          "registrationRequired": false,
+          "registrationUrl": "",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80",
+            "alt": "Senior learning to use a tablet with library volunteer",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

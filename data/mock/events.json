@@ -1,0 +1,184 @@
+{
+  "data": {
+    "nodeEvents": {
+      "__typename": "NodeEventConnection",
+      "nodes": [
+        {
+          "__typename": "NodeEvent",
+          "id": "event-author-visit",
+          "title": "Author Visit: Elena Torres Discusses 'The River Between Us'",
+          "path": "/events/author-visit-elena-torres",
+          "body": {
+            "processed": "<p>Bestselling author Elena Torres visits Riverside Public Library to discuss her acclaimed new novel, 'The River Between Us,' a multigenerational story of immigration, identity, and the ties that bind families across borders. The novel has been named a New York Times Notable Book and was longlisted for the National Book Award.</p><h2>Event Details</h2><ul><li>Author reading from selected passages</li><li>Moderated conversation with local journalist Ana Rivera</li><li>Audience Q&A session</li><li>Book signing following the event (books available for purchase)</li></ul><p>Elena Torres is the author of four novels and a short story collection. Her work explores the Mexican-American experience with warmth, humor, and lyrical prose. She is a recipient of the PEN/Faulkner Award and teaches creative writing at Northwestern University.</p><p>This event is presented by the Riverside Public Library Foundation and the Friends of the Library.</p>",
+            "summary": "Bestselling author Elena Torres visits Riverside Public Library to discuss her acclaimed new novel, 'The River Between Us,' a multigenerational story of immigration, identity, and the ties that bind f"
+          },
+          "eventDate": {
+            "timestamp": 1775865600
+          },
+          "endDate": {
+            "timestamp": 1775872800
+          },
+          "location": "Main Library, Community Auditorium",
+          "eventCategory": [
+            {
+              "id": "author-visit",
+              "name": "author-visit"
+            }
+          ],
+          "ageGroup": [
+            {
+              "id": "adults-18",
+              "name": "adults-18"
+            }
+          ],
+          "registrationRequired": true,
+          "registrationUrl": "https://riversidepubliclibrary.org/author-torres",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&q=80",
+            "alt": "Author Elena Torres with her latest novel",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-summer-reading",
+          "title": "Summer Reading Program Kickoff Party",
+          "path": "/events/summer-reading-kickoff",
+          "body": {
+            "processed": "<p>School is out and summer reading is in! Join us for the biggest party of the summer as we launch the 2026 Summer Reading Program at Riverside Public Library. This year's theme, 'Adventure Awaits,' invites readers of all ages to explore new worlds through books, audiobooks, and digital media.</p><h2>Kickoff Party Activities</h2><ul><li>Live performance by children's musician Captain Book</li><li>Face painting, balloon art, and craft stations</li><li>Sign up for Summer Reading and receive your free reading log and tote bag</li><li>Meet therapy dogs from Paws for Reading</li><li>Free popsicles and lemonade</li><li>Tour the Bookmobile and STEAM Lab</li></ul><h2>How Summer Reading Works</h2><p>Read books, earn points, and win prizes all summer long. Children, teens, and adults each have their own reading tracks. Log your reading online or on paper. Every participant who reaches the reading goal receives a free book and a voucher for local attractions.</p>",
+            "summary": "School is out and summer reading is in! Join us for the biggest party of the summer as we launch the 2026 Summer Reading Program at Riverside Public Library. This year's theme, 'Adventure Awaits,' inv"
+          },
+          "eventDate": {
+            "timestamp": 1780844400
+          },
+          "endDate": {
+            "timestamp": 1780858800
+          },
+          "location": "Main Library Grounds (rain location: Community Auditorium)",
+          "eventCategory": [
+            {
+              "id": "performance",
+              "name": "performance"
+            },
+            {
+              "id": "workshop",
+              "name": "workshop"
+            }
+          ],
+          "ageGroup": [
+            {
+              "id": "all-ages",
+              "name": "all-ages"
+            }
+          ],
+          "registrationRequired": false,
+          "registrationUrl": "",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=800&q=80",
+            "alt": "Children excited about summer reading program",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-book-sale",
+          "title": "Friends of the Library Spring Book Sale",
+          "path": "/events/spring-book-sale",
+          "body": {
+            "processed": "<p>The Friends of the Riverside Public Library present their semi-annual Book Sale, one of the largest used book sales in the county. Browse thousands of gently used books, DVDs, CDs, vinyl records, and puzzles, all at incredible prices. Proceeds support library programs, technology upgrades, and special collections.</p><h2>Sale Schedule</h2><ul><li><strong>Friday (Members Preview):</strong> 5:00 PM - 8:00 PM (Friends membership available at the door, $10)</li><li><strong>Saturday:</strong> 9:00 AM - 4:00 PM</li><li><strong>Sunday (Bag Sale):</strong> 12:00 PM - 3:00 PM (fill a bag for $5)</li></ul><h2>Pricing</h2><ul><li>Hardcover books: $2</li><li>Paperback books: $1</li><li>Children's books: $0.50</li><li>DVDs and CDs: $1 each</li><li>Vinyl records: $1 each</li></ul><p>Donations of gently used books are accepted at all branch locations through April 15. Volunteers are needed for sorting and sale days. Contact friends@riversidelibrary.org to sign up.</p>",
+            "summary": "The Friends of the Riverside Public Library present their semi-annual Book Sale, one of the largest used book sales in the county. Browse thousands of gently used books, DVDs, CDs, vinyl records, and "
+          },
+          "eventDate": {
+            "timestamp": 1777068000
+          },
+          "endDate": {
+            "timestamp": 1777233600
+          },
+          "location": "Main Library, Lower Level",
+          "eventCategory": [
+            {
+              "id": "book-sale",
+              "name": "book-sale"
+            }
+          ],
+          "ageGroup": [
+            {
+              "id": "all-ages",
+              "name": "all-ages"
+            }
+          ],
+          "registrationRequired": false,
+          "registrationUrl": "",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1524578271613-d550eacf6090?w=800&q=80",
+            "alt": "Book sale tables filled with used books",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1524578271613-d550eacf6090?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1524578271613-d550eacf6090?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1524578271613-d550eacf6090?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

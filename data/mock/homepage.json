@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Riverside Public Library",
+          "path": "/homepage",
+          "heroTitle": "Discover, Learn, Connect",
+          "heroSubtitle": "Your Free Gateway to Knowledge and Community",
+          "heroDescription": {
+            "processed": "<p>Riverside Public Library is more than books. We are a community hub offering free access to digital resources, technology, programs for all ages, and welcoming spaces to learn, create, and connect. With 12 branches across the county, we are always close to you.</p>",
+            "summary": "Riverside Public Library is more than books. We are a community hub offering free access to digital resources, technology, programs for all ages, and welcoming spaces to learn, create, and connect. Wi"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-cardholders",
+              "title": "",
+              "number": "185,000+",
+              "label": "Active Library Card Holders"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-checkouts",
+              "title": "",
+              "number": "2.4M",
+              "label": "Items Checked Out Annually"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-programs",
+              "title": "",
+              "number": "3,200+",
+              "label": "Programs Offered Yearly"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-branches",
+              "title": "",
+              "number": "12",
+              "label": "Branch Locations"
+            }
+          ],
+          "featuredItemsTitle": "Upcoming Programs",
+          "ctaTitle": "Get Your Free Library Card",
+          "ctaDescription": {
+            "processed": "<p>A library card opens the door to millions of books, e-books, audiobooks, streaming services, databases, and more, all completely free. Sign up online in minutes or visit any branch location.</p>",
+            "summary": "A library card opens the door to millions of books, e-books, audiobooks, streaming services, databases, and more, all completely free. Sign up online in minutes or visit any branch location."
+          },
+          "ctaPrimary": "Get a Library Card",
+          "ctaSecondary": "Explore Our Catalog"
+        }
+      ]
+    }
+  }
+}

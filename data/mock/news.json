@@ -1,0 +1,171 @@
+{
+  "data": {
+    "nodeNewsItems": {
+      "__typename": "NodeNewsConnection",
+      "nodes": [
+        {
+          "__typename": "NodeNews",
+          "id": "news-new-hours",
+          "title": "Expanded Sunday Hours at Three Branch Locations",
+          "path": "/news/expanded-sunday-hours",
+          "body": {
+            "processed": "<p>Beginning April 1, Riverside Public Library is expanding Sunday hours at three branch locations to better serve our community. The Eastside, Northgate, and Southridge branches will now be open on Sundays from 1:00 PM to 5:00 PM, in addition to the Main Library which already offers Sunday hours.</p><h2>Why Sunday Hours?</h2><p>In our recent community survey, expanded weekend hours were the most requested service improvement, with 68% of respondents indicating they would use the library on Sundays if it were open. This expansion is made possible by a $150,000 state grant for library access enhancement.</p><h2>Sunday Services Available</h2><ul><li>Full circulation services (checkout, returns, holds pickup)</li><li>Public computer and Wi-Fi access</li><li>Reference assistance</li><li>Children's area and teen zone open</li><li>Meeting room reservations available</li></ul><p>We will evaluate the success of expanded Sunday hours over a six-month pilot period and determine whether to make the change permanent and extend it to additional branches.</p>",
+            "summary": "Beginning April 1, Riverside Public Library is expanding Sunday hours at three branch locations to better serve our community. The Eastside, Northgate, and Southridge branches will now be open on Sund"
+          },
+          "newsCategory": [
+            {
+              "id": "hours-closures",
+              "name": "hours-closures"
+            },
+            {
+              "id": "library-news",
+              "name": "library-news"
+            }
+          ],
+          "publishDate": {
+            "timestamp": 1772377200
+          },
+          "author": "Library Administration",
+          "summary": {
+            "processed": "<p>Starting April 1, three additional Riverside Public Library branches will offer Sunday hours from 1:00 PM to 5:00 PM, funded by a $150,000 state grant for library access.</p>",
+            "summary": "Starting April 1, three additional Riverside Public Library branches will offer Sunday hours from 1:00 PM to 5:00 PM, funded by a $150,000 state grant for library access."
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=800&q=80",
+            "alt": "Library entrance welcoming visitors",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-digital-collection",
+          "title": "Library Launches Three New Digital Collections",
+          "path": "/news/new-digital-collections",
+          "body": {
+            "processed": "<p>Riverside Public Library is excited to announce the addition of three major digital collections available free to all library card holders, significantly expanding our digital offerings for lifelong learners.</p><h2>New Digital Resources</h2><ul><li><strong>Kanopy Streaming:</strong> Access over 30,000 films including award-winning documentaries, independent cinema, classic films, and educational content. Stream up to 10 titles per month on any device.</li><li><strong>LinkedIn Learning:</strong> Over 16,000 courses in business, technology, and creative skills. Earn certificates and develop professional skills at your own pace.</li><li><strong>PressReader:</strong> Read over 7,000 newspapers and magazines from 120 countries in 60 languages, including The New York Times, The Washington Post, and hundreds of international publications.</li></ul><h2>How to Access</h2><p>All three platforms are accessible through our website or mobile apps using your Riverside Public Library card number and PIN. If you do not have a library card, you can sign up for a free digital card online at riversidepubliclibrary.org/ecard.</p>",
+            "summary": "Riverside Public Library is excited to announce the addition of three major digital collections available free to all library card holders, significantly expanding our digital offerings for lifelong l"
+          },
+          "newsCategory": [
+            {
+              "id": "new-collections",
+              "name": "new-collections"
+            },
+            {
+              "id": "library-news",
+              "name": "library-news"
+            }
+          ],
+          "publishDate": {
+            "timestamp": 1771167600
+          },
+          "author": "Digital Services Department",
+          "summary": {
+            "processed": "<p>Three new digital collections are now available free to library card holders: Kanopy film streaming, LinkedIn Learning professional courses, and PressReader global newspapers and magazines.</p>",
+            "summary": "Three new digital collections are now available free to library card holders: Kanopy film streaming, LinkedIn Learning professional courses, and PressReader global newspapers and magazines."
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?w=800&q=80",
+            "alt": "Person using digital library resources on a tablet",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-summer-reading-stats",
+          "title": "Summer Reading Program Sets New Participation Record",
+          "path": "/news/summer-reading-record",
+          "body": {
+            "processed": "<p>The 2025 Summer Reading Program, themed 'Read Beyond the Beaten Path,' shattered participation records with 18,500 readers logging over 1.2 million minutes of reading across the summer. This represents a 22% increase over the previous year and the highest participation in the program's 40-year history.</p><h2>Highlights</h2><ul><li>18,500 total participants (8,200 children, 4,800 teens, 5,500 adults)</li><li>1,200,000+ minutes of reading logged</li><li>520 programs offered across all branches</li><li>12,000 program attendees throughout the summer</li><li>$15,000 in prizes awarded, including books, gift cards, and experience vouchers</li></ul><h2>Community Impact</h2><p>Summer reading programs are proven to prevent the 'summer slide,' the loss of academic skills that many students experience during the break from school. By keeping children and teens engaged with books and learning activities, the library helps students return to school ready to succeed.</p><p>Planning for Summer 2026, themed 'Adventure Awaits,' is already underway. Watch for registration opening in May.</p>",
+            "summary": "The 2025 Summer Reading Program, themed 'Read Beyond the Beaten Path,' shattered participation records with 18,500 readers logging over 1.2 million minutes of reading across the summer. This represent"
+          },
+          "newsCategory": [
+            {
+              "id": "community",
+              "name": "community"
+            },
+            {
+              "id": "library-news",
+              "name": "library-news"
+            }
+          ],
+          "publishDate": {
+            "timestamp": 1769958000
+          },
+          "author": "Youth Services Department",
+          "summary": {
+            "processed": "<p>The 2025 Summer Reading Program set a new record with 18,500 participants logging over 1.2 million minutes of reading, a 22% increase over the previous year.</p>",
+            "summary": "The 2025 Summer Reading Program set a new record with 18,500 participants logging over 1.2 million minutes of reading, a 22% increase over the previous year."
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=800&q=80",
+            "alt": "Children reading books during summer reading program",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

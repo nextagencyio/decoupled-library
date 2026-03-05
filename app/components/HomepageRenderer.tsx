@@ -7,6 +7,7 @@ import StatsSection from './StatsSection'
 import CTASection from './CTASection'
 import ErrorBoundary from './ErrorBoundary'
 import { DrupalHomepage } from '@/lib/types'
+import { BookOpen, Users, CalendarDays } from 'lucide-react'
 
 interface HomepageRendererProps {
   homepageContent: DrupalHomepage | null | undefined
@@ -18,6 +19,29 @@ export default function HomepageRenderer({ homepageContent }: HomepageRendererPr
       <Header />
       <ErrorBoundary><HeroSection homepageContent={homepageContent} /></ErrorBoundary>
       <ErrorBoundary><StatsSection homepageContent={homepageContent} /></ErrorBoundary>
+
+      <section className="py-16 bg-white border-y border-primary-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl font-display text-primary-900 mb-3">More Than a Library</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">A hub for reading, learning, and connection for every age group in our community.</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              { icon: BookOpen, title: 'Digital Collections', text: 'eBooks, audiobooks, and online research tools available 24/7.' },
+              { icon: Users, title: 'Community Programs', text: 'Storytime, career workshops, language classes, and public events.' },
+              { icon: CalendarDays, title: 'Room Reservations', text: 'Book study rooms and meeting spaces for groups and organizations.' },
+            ].map((item) => (
+              <div key={item.title} className="bg-[#faf8f5] border border-primary-100 rounded-xl p-6">
+                <item.icon className="w-6 h-6 text-primary-700 mb-3" />
+                <h3 className="text-lg font-semibold text-primary-900 mb-2">{item.title}</h3>
+                <p className="text-gray-600 text-sm">{item.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <ErrorBoundary><CTASection homepageContent={homepageContent} /></ErrorBoundary>
 
       <footer className="bg-[#f5f2ee] text-gray-800 pt-16 pb-8 border-t border-primary-200">

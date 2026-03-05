@@ -7,7 +7,7 @@ import StatsSection from './StatsSection'
 import CTASection from './CTASection'
 import ErrorBoundary from './ErrorBoundary'
 import { DrupalHomepage } from '@/lib/types'
-import { BookOpen, Users, CalendarDays } from 'lucide-react'
+import { BookOpen, Users, CalendarDays, Quote, Wifi, GraduationCap, Baby, Newspaper } from 'lucide-react'
 
 interface HomepageRendererProps {
   homepageContent: DrupalHomepage | null | undefined
@@ -34,6 +34,44 @@ export default function HomepageRenderer({ homepageContent }: HomepageRendererPr
             ].map((item) => (
               <div key={item.title} className="bg-[#faf8f5] border border-primary-100 rounded-xl p-6">
                 <item.icon className="w-6 h-6 text-primary-700 mb-3" />
+                <h3 className="text-lg font-semibold text-primary-900 mb-2">{item.title}</h3>
+                <p className="text-gray-600 text-sm">{item.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-[#faf8f5]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <Quote className="w-10 h-10 text-primary-300 mx-auto mb-6" />
+          <blockquote className="text-xl md:text-2xl font-display text-primary-900 leading-relaxed mb-6">
+            &ldquo;This library changed my life. The career workshop helped me rewrite my resume, and within a month I had three interviews. It&apos;s so much more than books &mdash; it&apos;s a launchpad for the whole community.&rdquo;
+          </blockquote>
+          <div className="text-gray-600">
+            <p className="font-semibold text-primary-800">David Chen</p>
+            <p className="text-sm">Library patron and volunteer</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-white border-y border-primary-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl font-display text-primary-900 mb-3">Resources for Everyone</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">Free access to tools, technology, and programs that empower learners of all ages.</p>
+          </div>
+          <div className="grid md:grid-cols-4 gap-6">
+            {[
+              { icon: Wifi, title: 'Free Wi-Fi & Computers', text: 'High-speed internet, public workstations, and laptop lending for in-library use.' },
+              { icon: GraduationCap, title: 'Homework Help', text: 'After-school tutoring, STEM kits, and quiet study zones for students K-12.' },
+              { icon: Baby, title: 'Early Literacy', text: 'Storytime sessions, play-and-learn areas, and take-home reading packs for toddlers.' },
+              { icon: Newspaper, title: 'Local History Archive', text: 'Digitized newspapers, genealogy databases, and a curated special collections room.' },
+            ].map((item) => (
+              <div key={item.title} className="text-center">
+                <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <item.icon className="w-6 h-6 text-primary-700" />
+                </div>
                 <h3 className="text-lg font-semibold text-primary-900 mb-2">{item.title}</h3>
                 <p className="text-gray-600 text-sm">{item.text}</p>
               </div>

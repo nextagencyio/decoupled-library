@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-cardholders",
               "title": "",
-              "number": "185,000+",
+              "number": "185,000+", "value": "185,000+",
               "label": "Active Library Card Holders"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-checkouts",
               "title": "",
-              "number": "2.4M",
+              "number": "2.4M", "value": "2.4M",
               "label": "Items Checked Out Annually"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-programs",
               "title": "",
-              "number": "3,200+",
+              "number": "3,200+", "value": "3,200+",
               "label": "Programs Offered Yearly"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-branches",
               "title": "",
-              "number": "12",
+              "number": "12", "value": "12",
               "label": "Branch Locations"
             }
           ],

@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import BranchCard from '../components/BranchCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Branch Locations | Riverside Public Library',
